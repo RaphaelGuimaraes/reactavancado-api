@@ -58,33 +58,15 @@
       "repeatable": false,
       "component": "page.pricing-box"
     },
-    "totalPrice": {
-      "type": "integer",
-      "required": true
-    },
-    "numberInstallments": {
-      "type": "integer",
-      "required": true
-    },
-    "priceInstallment": {
-      "type": "integer",
-      "required": true
-    },
-    "benefits": {
-      "type": "richtext",
-      "default": "Create items as bullet list",
-      "required": true
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.button",
-      "required": true
-    },
     "sectionAboutUs": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-about-us"
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
     }
   }
 }
